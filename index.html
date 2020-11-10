@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identify numbers</title>
+   <script type="application/javascript" src="script.js"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <h1>Welcome Michu</h1>
+  <div class="subheading" onclick="playCurrentNumber()"> Play current number </div>
+  <audio controls id="player" style="display: none">
+    <source id="player-src" src="#">
+    </source>
+  </audio>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div id="1" onclick="onCardClick(1)" class="card">1</div>
+      </div>
+      <div class="column">
+        <div id="2" onclick="onCardClick(2)" class="card">2</div>
+      </div>
+      <div class="column">
+        <div id="3" onclick="onCardClick(3)" class="card">3</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div id="4" onclick="onCardClick(4)" class="card">4</div>
+      </div>
+      <div class="column">
+        <div id="5" onclick="onCardClick(5)" class="card">5</div>
+      </div>
+      <div class="column">
+        <div id="6" onclick="onCardClick(6)" class="card">6</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div id="7" onclick="onCardClick(7)" class="card">7</div>
+      </div>
+      <div class="column">
+        <div id="8" onclick="onCardClick(8)" class="card">8</div>
+      </div>
+      <div class="column">
+        <div id="9" onclick="onCardClick(9)" class="card">9</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
